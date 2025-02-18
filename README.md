@@ -16,10 +16,10 @@ I utilized the following Excel skills for analysis:
 ### Charts
 **Data Science Job Salaries - Bar Chart**  
 
-![Data_job_salaries_bar_chart](https://github.com/user-attachments/assets/33a8ac4b-accf-4a2d-b6aa-8b2ad98ae7d3)  
+![Screenshot 2025-02-18 223623](https://github.com/user-attachments/assets/389f810e-3de0-462d-a6ef-d5404324b386)
+
 - **Excel Features:** Utilized bar chart feature (with formatted salary values) and optimized layout for clarity.
-- **Insights Gained:** This enables quick identification of salary trends, noting that Senior roles and Engineers are higher- 
-                       paying than Analyst roles.
+- **Insights Gained:** This enables quick identification of salary trends, noting that Senior roles and Engineers are higher paying than Analyst roles.
 
 **Country Median Salaries - Map Chart**   
 
@@ -43,7 +43,8 @@ I utilized the following Excel skills for analysis:
 ![salary_table](https://github.com/user-attachments/assets/1b5ac614-34a8-4a45-b9bc-c5afc33b7013)  
 
 **Dashboard Implementation**  
-![title implementation](https://github.com/user-attachments/assets/d829979a-350c-4ba0-9673-aa40d6deb63f)  
+![Screenshot 2025-02-18 223633](https://github.com/user-attachments/assets/3144820e-d9b1-40a3-b88e-b43158b15be5)  
+
 
 ### Data Validation  
 
@@ -185,35 +186,11 @@ I utilized following Excel skills for analysis:
 As a data enthusiast and a job seeker, I embarked on this Excel-based project to uncover valuable insights about the data science job market. Using a real-world job postings dataset, I analyzed job titles, salaries, locations and essential skills. By leveraging Excel features like Power Query, PivotTables, DAX and Charts, I discovered key correlations between multiple skills and higher salaries, particularly in Python, SQL and cloud technologies.  
 I hope this project provides an overview of the skills needed for higher-paying roles.  
 
+**PS:** In the salary dashboard you may find for some permutation of job_title, country and job_type that a few job titles or job type data fields are empty in the bar chart I used. This is happening because for a particular country there are no job openings available for a particular job role or job type. And when you switch between different job roles or country or job type you may notice that the bar charts does not remain sorted.  
 
+This can also be fixed by using some dynamic array functions like FILTER() and SORT() functions available in Excel365 or Excel 2021 or newer versions but I unfortunately don't have acces to these dynamic array functins, So I couldn't use them in my project.  
 
-
-
-
-
-
-
-  
-
-
-
-  
-  
-
-    
-  
-
-
-
-
-
-
-
-
-
-
-
-
+I made this project by following along a course available on youtube which goes by "Excel_for_Data_Analytics" uploaded by "Luke Barrouse" on his youtube channel [LukeBarrouse](https://youtu.be/pCJ15nGFgVg?feature=shared) and the dataset used for this project is a real world data.
 
 
 
